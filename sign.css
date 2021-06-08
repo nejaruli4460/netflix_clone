@@ -217,6 +217,7 @@ div form .new{
         position: relative;
         width: 80%;
         left: -140px;
+        margin: auto;
     }
     div .signin-box .email,div .signin-box .password,.btn,div .signup-box .email,div .signup-box .password,.btn2
     {
