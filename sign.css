@@ -136,30 +136,6 @@ footer .useful-links{
     display: flex;
     flex-wrap: wrap;
 }
-/* @media (max-height: 600px) {
-    div .signin-box{
-        display: none;
-        position: relative;
-        right: 50px;
-        left: -50px;
-        width: 80%;
-    }
-    div .signin-box .email,div .signin-box .password,.btn
-    {
-        width: 250px;
-        height: 40px;
-        margin-top: 20px;
-        font-size: 17px;
-        border-radius: 5px;
-    }
-    div form .rem span{
-        margin-left: 20px;
-    }
-    footer{
-        padding:0px;
-        height: 270px;
-    }
-} */
 .signup-box{
     border: 2px solid black;
     position: relative;
@@ -233,4 +209,29 @@ div form .new{
 }
 #signup-box{
     display: none;
+}
+
+@media (max-height: 600px) {
+    div .signin-box,.signup-box{
+        display: none;
+        position: relative;
+        right: 50px;
+        left: -50px;
+        width: 80%;
+    }
+    div .signin-box .email,div .signin-box .password,.btn,div .signup-box .email,div .signup-box .password,.btn2
+    {
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    div form .rem span{
+        margin-left: 20px;
+    }
+    footer{
+        padding:0px;
+        height: 270px;
+    }
 }
