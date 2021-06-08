@@ -62,9 +62,10 @@ for(var i=0;i<obj.length;i++)
 }
 if(count>0)
 {
-   alert("Credential valid");
+   alert("Credential valid this is our fake website");
    document.querySelector(".email").value="";
    document.querySelector(".password").value="";
+   location.href="//www.youtube.com";
 }
 else{
     alert("sign up first");
