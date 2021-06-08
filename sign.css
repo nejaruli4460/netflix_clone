@@ -211,7 +211,7 @@ div form .new{
     display: none;
 }
 
-@media (max-height: 980px) {
+@media (max-width: 800px) {
     div .signin-box,.signup-box{
         display: none;
         position: relative;
