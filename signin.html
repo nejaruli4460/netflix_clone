@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="sign.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <li class="logo"><img
+                    src="https://www.searchpng.com/wp-content/uploads/2019/02/Netflix-Logo-PNG-image-200x200.png">
+            </li>
+        </div>
+        <div class="signin-box" id="signin-box">
+            <h1 class="sign-in">Sign In</h1>
+            <form onsubmit="return false">
+
+                <input type="text" id="email" class="email" placeholder="Email or phone number" onchange="fun()" required>
+                <p class="email-check">Please Enter a valid email address or phone number</p>
+                <input type="password" name="" id="password" class="password" placeholder="Password" required>
+                <p class="password-check">Your password must contain between 4 and 60 character</p>
+                <button id="submit" type="submit" class="btn" disabled="disabled" onclick="btn()">Sign In</button>
+                <div class="rem">
+                    <input type="checkbox"  id="rem">
+                    remember me
+                    <span>Need help?</span>
+                </div>
+            <div class="new">
+                <p>New to Netflix?</p>
+                <span class="sign-up" onclick="swap()"> Sign Up</span>
+            </div>
+            </form>
+        </div>
+        <div class="signup-box" id=signup-box>
+            <h1 class="sign-up" style="color: white;">Sign Up</h1>
+            <form onsubmit="return false">
+
+                <input type="text" id="email2" class="email" placeholder="Email or phone number" onchange="fun2()" required>
+                <p class="email-check">Please Enter a valid email address or phone number</p>
+                <input type="password" name="" id="password2" class="password" placeholder="Password" required>
+                <p class="password-check">Your password must contain between 4 and 60 character</p>
+                <button type="submit" id="btn" class="btn2" disabled="disabled" onclick="store()">Sign Up</button>
+                <div class="rem">
+                    <input type="checkbox">
+                    remember me
+                    <span>Need help?</span>
+                </div>
+                <span class="sign" onclick="swapin()"> Sign-In</span>
+            </form>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="call-us">
+            <li>Questions? Call 000-800-040-1843</li>
+        </div>
+        <div class="useful-links">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies Prefrences</a></li>
+            <li><a href="#">Corporate Information</a></li>
+        </div>
+    </footer>
+</body>
+
+</html>

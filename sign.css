@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    align-self: center;
+    list-style: none;
+   top: -207px;
+  }
+  .container{
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  }
+ .signin-box{
+    display: none;
+    border: 2px solid black;
+    position: relative;
+    width: 579px;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 98px;
+    right: 466px;
+    height: 462px;
+    color:grey;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+div .signin-box .email,div .signin-box .password,.btn{
+width: 314px;
+height: 50px;
+margin-top: 20px;
+font-size: 17px;
+border-radius: 5px;
+}
+div .signin-box .email,div .signin-box .password{
+    background-color:#333;
+    padding:5px;
+    color: #fff;
+}
+div .signin-box .email::placeholder,div .signin-box .password::placeholder{
+    color:grey;
+}
+.btn{
+    background-color: red;
+    color:#fff;
+}
+div .signin-box .email-check,div .signin-box .password-check{
+    color: #e87c03;
+    width: 314px;
+    height: 45px;
+    font-size: 13px;
+    display: none;
+}
+div form .rem{
+margin-top: 5px;
+}
+div form .rem span{
+    margin-left: 96px;
+    text-decoration: underline;
+}
+div form .new{
+    margin-top: 10px;
+    width:314px;
+    display: flex;
+}
+.sign-in{
+    color: white;
+    font-weight: bold;
+}
+div form .new .sign-up {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div form .new .sign-up:hover{
+    cursor: pointer;
+}
+div form .new .sign-up:active{
+    color: brown;
+}
+footer{
+    height: 208px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.418) ;
+    list-style: none;
+    padding: 50px;
+}
+footer .call-us{
+    padding-left: 49px;
+}
+footer .useful-links a{
+    text-decoration: none;
+    width: 206px;
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    font-size: 12px;
+}
+footer .useful-links a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer .useful-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* @media (max-height: 600px) {
+    div .signin-box{
+        display: none;
+        position: relative;
+        right: 50px;
+        left: -50px;
+        width: 80%;
+    }
+    div .signin-box .email,div .signin-box .password,.btn
+    {
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    div form .rem span{
+        margin-left: 20px;
+    }
+    footer{
+        padding:0px;
+        height: 270px;
+    }
+} */
+.signup-box{
+    border: 2px solid black;
+    position: relative;
+    width: 579px;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 98px;
+    right: 466px;
+    height: 462px;
+    color:grey;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+div .signup-box .email,div .signup-box .password,.btn2{
+width: 314px;
+height: 50px;
+margin-top: 20px;
+font-size: 17px;
+border-radius: 5px;
+}
+div .signup-box .email,div .signup-box .password{
+    background-color:#333;
+    padding:5px;
+    color: #fff;
+}
+div .signup-box .email::placeholder,div .signup-box .password::placeholder{
+    color:grey;
+}
+.btn2{
+    background-color: red;
+    color:#fff;
+}
+div .signup-box .email-check,div .signup-box .password-check{
+    color: #e87c03;
+    width: 314px;
+    height: 45px;
+    font-size: 13px;
+    display: none;
+}
+div form .rem{
+margin-top: 5px;
+}
+div form .rem span{
+    margin-left: 96px;
+    text-decoration: underline;
+}
+div form .new{
+    margin-top: 10px;
+    width:314px;
+    display: flex;
+}
+.sign{
+    color: white;
+    font-weight: bold;
+}
+.sign{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sign:hover{
+    cursor: pointer;
+}
+.sign:active{
+    color: brown;
+}
+#signin-box{
+    display: block;
+}
+#signup-box{
+    display: none;
+}
