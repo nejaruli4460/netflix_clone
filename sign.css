@@ -211,12 +211,12 @@ div form .new{
     display: none;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 980px) {
     div .signin-box,.signup-box{
         display: none;
         position: relative;
         width: 80%;
-        left: -109px;
+        left: -140px;
     }
     div .signin-box .email,div .signin-box .password,.btn,div .signup-box .email,div .signup-box .password,.btn2
     {
@@ -236,5 +236,9 @@ div form .new{
     footer .useful-links a{
         display: flex;
         flex-wrap: wrap;
+    }
+    .logo{
+        display: flex;
+        padding-left: 100px;
     }
 }
