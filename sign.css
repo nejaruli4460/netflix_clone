@@ -215,7 +215,7 @@ div form .new{
     div .signin-box,.signup-box{
         display: none;
         position: relative;
-        width: 80%;
+        width: 350px;
         left: -200px;
         height: 383px;
         margin: auto;
