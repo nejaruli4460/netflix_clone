@@ -217,15 +217,16 @@ div form .new{
         position: relative;
         width: 80%;
         left: -140px;
+        height: 383px;
         margin: auto;
     }
     div .signin-box .email,div .signin-box .password,.btn,div .signup-box .email,div .signup-box .password,.btn2
     {
-        width: 250px;
         height: 40px;
         margin-top: 20px;
         font-size: 17px;
         border-radius: 5px;
+        margin-left: -30px;
     }
     div form .rem span{
         margin-left: 20px;
@@ -240,6 +241,10 @@ div form .new{
     }
     .logo{
         display: flex;
-        padding-left: 100px;
+        padding-left: 150px;
+    }
+    .sign-in,.sign{
+        text-align: center;
+        margin-left: -20px;
     }
 }
