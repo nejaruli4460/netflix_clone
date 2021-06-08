@@ -215,9 +215,8 @@ div form .new{
     div .signin-box,.signup-box{
         display: none;
         position: relative;
-        right: 50px;
-        left: -50px;
         width: 80%;
+        left: -109px;
     }
     div .signin-box .email,div .signin-box .password,.btn,div .signup-box .email,div .signup-box .password,.btn2
     {
@@ -233,5 +232,9 @@ div form .new{
     footer{
         padding:0px;
         height: 270px;
+    }
+    footer .useful-links a{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
